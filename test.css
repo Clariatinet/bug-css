@@ -1,12 +1,31 @@
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
-span {
-  display: inline-block;
-  color: blue;
-  background-color: yellow;
-  padding-left: 30px;
-  margin-top: 20px;
-  width: 100px;
+.parent {
+  margin: 0 auto;
+  background-color: gray;
+  width: 600px;
+}
+
+.child {
+  text-align: center;
+  width: 300px;
+  height: 200px;
+  line-height: 200px;
+}
+
+.red {
+  background-color: red;
+  float: left;
+}
+
+.yellow {
+  background-color: yellowgreen;
+  float: left;
+}
+
+.green {
+  background-color: green;
 }

@@ -4,7 +4,7 @@
 }
 
 .parent {
-  width: 600px;
+  width: 400px;
   margin: 0 auto;
   background-color: #eff2f7;
 }
@@ -16,17 +16,24 @@
   text-align: center;
   color: #fff;
   font-weight: 600;
+  float: left;
 }
 
 .red {
   background-color: red;
-  float: left;
 }
 
 .yellow {
   background-color: rgb(206, 206, 41);
+  margin-bottom: 40px;
 }
 
 .blue {
   background-color: blue;
+  margin-right: 30px;
+}
+
+.other {
+  color: #fff;
+  background-color: #000;
 }
