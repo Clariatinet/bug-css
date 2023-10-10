@@ -1,4 +1,11 @@
 p {
-  text-align: center;
+  /* text-align: center; */
   text-indent: 100px;
+  /* text-transform: lowercase; */
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
 }

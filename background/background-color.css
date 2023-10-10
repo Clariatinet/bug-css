@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.box {
+  width: 500px;
+  height: 300px;
+  background-color: red;
+  background-image: url('./assets/user.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.pox {
+  width: 400px;
+  height: 400px;
+  background-color: red;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Color_icon_yellow.svg/800px-Color_icon_yellow.svg.png);
+  background-size: cover;
+}
